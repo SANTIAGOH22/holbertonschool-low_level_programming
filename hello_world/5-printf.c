@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-prinft("but the outcome is a piece of artbut the outcome is a piece of art,\n");
+printf("but the outcome is a piece of artbut the outcome is a piece of art,\n");
 return (0);
 }
