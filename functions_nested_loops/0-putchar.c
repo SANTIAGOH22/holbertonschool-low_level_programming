@@ -2,11 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - function
- * description - putchar
- *
- * Return: 0
- */
+* main - function
+* description - putchar
+*
+* Return: 0
+*/
 
 int main(void)
 {
@@ -19,6 +19,5 @@ putchar('h');
 putchar('a');
 putchar('r');
 putchar('\n');
-
 return (0);
 }
