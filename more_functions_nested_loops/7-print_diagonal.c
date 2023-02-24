@@ -7,23 +7,18 @@
  */
 void print_diagonal(int n)
 {
-int count, diagonals;
-if (n <= 0)
+int len, space;
+if (n > 0)
 {
-_putchar('\n');
-}
-else
+for (len = 0; len < n; len++)
 {
-for (count = 0; count <= n; count++)
-{
-diagonals = count;
-while (diagonals > 0)
-{
+for (space = 0; space < len; space++)
 _putchar(' ');
-diagonals--;
-}
 _putchar('\\');
+if (len == n - 1)
+continue;
 _putchar('\n');
 }
 }
+_putchar('\n');
 }
