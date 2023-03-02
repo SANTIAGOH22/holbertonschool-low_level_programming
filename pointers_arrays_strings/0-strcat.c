@@ -3,12 +3,10 @@
 
 /**
  * _strcat - concatenates string from other string
- * @dest: 
- * @src: 
- *
+ * @dest: concatenates string
+ * @src: source string
  * Return: string concatenated
  */
-
 char *_strcat(char *dest, char *src)
 {
 int i = 0, a;
