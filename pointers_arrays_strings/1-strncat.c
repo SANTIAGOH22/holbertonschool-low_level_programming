@@ -4,6 +4,7 @@
 * _strncat - concatenates string from other string
 * @dest: concatenates string
 * @src: source string
+* @n: size
 * Return: string concatenated
 */
 
